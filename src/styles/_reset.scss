@@ -1,0 +1,46 @@
+/* Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property */
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+  all: unset;
+  display: revert;
+}
+
+/* Preferred box-sizing value */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove list styles (bullets/numbers) */
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  cursor: pointer;
+}
+
+svg {
+  overflow: visible;
+  vector-effect: non-scaling-stroke;
+  &:not(:root) {
+    overflow: visible;
+  }
+}
+
+.button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  appearance: none;
+  background-color: transparent;
+  border: 0;
+  box-shadow: none;
+  font-family: inherit;
+  outline: none;
+  padding: 0;
+  text-shadow: none;
+
+  &::-moz-focus-inner {
+    border: 0;
+  }
+}

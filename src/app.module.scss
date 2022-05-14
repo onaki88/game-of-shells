@@ -1,0 +1,9 @@
+@import "./styles/_reset";
+@import "./styles/_variables";
+
+body {
+  background: var(--color-white);
+  color: var(--color-grey);
+  font-family: var(--font-family);
+  overflow: hidden;
+}

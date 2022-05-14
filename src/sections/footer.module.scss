@@ -1,0 +1,8 @@
+.footer {
+  position: absolute;
+  text-align: center;
+  left: var(--width-sidebar);
+  bottom: 0;
+  width: calc(100% - var(--width-sidebar));
+  padding: 50px;
+}

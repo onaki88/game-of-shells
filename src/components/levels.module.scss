@@ -1,0 +1,32 @@
+.levels {
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  padding: 160px 25px 25px 25px;
+
+  &__title {
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  &__item {
+  }
+
+  &__btn {
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 12px;
+    &:hover {
+      color: var(--color-red);
+    }
+    &--active {
+      color: var(--color-grey);
+      font-weight: 700;
+    }
+    &--disabled {
+      pointer-events: none;
+      cursor: none;
+      opacity: 0.5;
+    }
+  }
+}

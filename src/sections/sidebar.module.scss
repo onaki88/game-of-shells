@@ -1,0 +1,27 @@
+.sidebar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: fixed;
+  z-index: 4;
+  top: 0;
+  left: 0;
+  width: var(--width-sidebar);
+  height: 100%;
+  background: var(--color-yellow);
+  padding-top: 50px;
+}
+
+.logo {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  pointer-events: none;
+}
+
+.jerry {
+  position: absolute;
+  bottom: 25px;
+  pointer-events: none;
+}

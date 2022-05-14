@@ -1,0 +1,23 @@
+.game {
+  position: absolute;
+  width: calc(100% - var(--width-sidebar));
+  left: var(--width-sidebar);
+  bottom: 135px;
+  padding: 50px;
+
+  @media (max-width: 1200px) {
+    padding: 50px 25px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 50px 15px;
+  }
+}
+
+.shells {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 115px;
+  margin: 0 auto;
+}
