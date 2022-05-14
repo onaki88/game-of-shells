@@ -8,7 +8,7 @@ This project was created using React (create-react-app cli), Redux and Typescrip
 
 # Demo
 
-- game-of-shells-onaki88.vercel.app
+- https://game-of-shells-onaki88.vercel.app/
 
 # Installation
 
